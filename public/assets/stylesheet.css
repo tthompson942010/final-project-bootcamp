@@ -1,0 +1,80 @@
+#bootstrap-override {
+	background-color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#bootstrap-override .navbar-override{
+	border-bottom: 4px solid;
+	border-image: url("images/border-smpte.jpg") 1 stretch repeat;
+}
+
+/*Remove padding for navbar logo*/
+#bootstrap-override .brand-override {
+	padding: 0px;
+}
+
+/*change font color for navbar*/
+#bootstrap-override .font-override {
+	color: #929292;
+}
+
+/*change font color for navbar on hover*/
+#bootstrap-override .font-override:hover {
+	color: #dfdfdf;
+}
+
+/*Style for blurb on left of home page*/
+#bootstrap-override .home-override {
+	background-color: black;
+	color: white;
+	line-height: 2;
+}
+
+/*Style for bullets in blurb*/
+#bootstrap-override .home-override li {
+	font-size: 24px;
+}
+
+/*Adjustment to Bootstrap h1 font size*/
+#bootstrap-override h1 {
+	font-size: 36px;
+}
+
+/*Style for 'Featured' section*/
+#bootstrap-override .suggestion-override {
+	background-color: #1e1e1e;
+	color: grey;
+}
+
+
+#bootstrap-override .img-responsive {
+	max-width: 750px;
+	max-height: 500px;
+}
+
+#bootstrap-override .about-override {
+	color: black;
+	padding: 30px;
+	line-height: 2;
+	background-color: lightgrey;
+}
+
+#bootstrap-override .about-override h1 {
+	padding-bottom: 20px;
+}
+
+#bootstrap-override .about-override p {
+	font-size: 16px;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 256px;
+    height: 256px;
+    background-color: white;
+    display: block;
+    margin: 20px auto 20px auto;
+}
+
+.center-logo {
+	padding: 64px 64px 64px 64px;
+}
