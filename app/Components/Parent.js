@@ -3,18 +3,17 @@ import Home from "./Home";
 import LoginModal from "./LoginModal";
 import Navbar from "./Navbar";
 import SignUpModal from "./SignUpModal";
+import Sidebar from "./Sidebar";
+import Display from "./Display";
 
 class Parent extends React.Component {
-	render(){
+	render() {
 		return(
 			<div className="main-container">
-				<SignUpModal />
-				<LoginModal />
-				<Navbar />
-				<Home />
+        <h1> Hello World!</h1>
 			</div>
-		)
+		);
 	}
 }
 
-module.exports = Parent;
+export default Parent

@@ -7,8 +7,11 @@ module.exports = {
   output: {
     filename: "public/bundle.js"
   },
-
-
+  devServer: {
+    inline: true,
+    contentBase: "./public",
+    port: 8100
+  },
   // This will be what we do
   module: {
     loaders: [

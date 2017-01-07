@@ -1,5 +1,6 @@
 const express=require('express');
 const bodpars=require('body-parser');
+// const bcrypt=require('bcrypt');
 const app=express();
 const PORT=process.env.port || 3030;
 
@@ -17,3 +18,13 @@ app.listen(PORT, function(){
 app.get('/', function(req, res){
   res.sendFile('./public/index.html');
 });
+
+app.get('/api/', function(req, res){
+
+});
+
+app.post('/login/'),function(req, res){
+	var username = req.body.username;
+	var password = req.body.password;
+	
+}

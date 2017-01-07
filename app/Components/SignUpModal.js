@@ -2,7 +2,7 @@ import React from "react";
 
 class SignUpModal extends React.Component{
 
-	render(){
+	render() {
 		return(
 			<div className="modal fade" id="signUpModal" tabIndex="-1" role="dialog">
 				<div className="modal-dialog" role="document">
@@ -31,8 +31,8 @@ class SignUpModal extends React.Component{
 					</div>
 				</div>
 			</div>
-		)
+		);
 	}
 }
 
-module.exports = SignUpModal;
+export default SignUpModal

@@ -1,7 +1,7 @@
 import React from "react";
 
 class LoginModal extends React.Component{
-	render(){
+	render() {
 		return(
 			<div className="modal fade" id="loginModal" tabIndex="-1" role="dialog">
 				<div className="modal-dialog" role="document">
@@ -20,8 +20,8 @@ class LoginModal extends React.Component{
 					</div>
 				</div>
 			</div>
-		)
+		);
 	}
 }
 
-module.exports = LoginModal;
+export default LoginModal

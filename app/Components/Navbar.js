@@ -1,7 +1,7 @@
 import React from "react";
 
 class Navbar extends React.Component {
-	render(){
+	render() {
 		return(
 			<nav className="navbar navbar-inverse navbar-static-top navbar-override">
 				<div className="container-fluid">
@@ -22,8 +22,8 @@ class Navbar extends React.Component {
 					</div>
 				</div>	
 			</nav>
-		)
+		);
 	}
 }
 
-module.exports = Navbar;
+export default Navbar

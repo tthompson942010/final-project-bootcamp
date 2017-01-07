@@ -1,8 +1,9 @@
 import React from "react";
+import axios from "axios";
 
 class Home extends React.Component{
 
-	render(){
+	render() {
 		return(
 			<div className="container-fluid">
 				<div className="row home-override">
@@ -64,8 +65,8 @@ class Home extends React.Component{
 					</div>
 				</div>
 			</div>
-		)
+		);
 	}
 }
 
-module.exports = Home;
+export default Home
