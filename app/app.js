@@ -1,9 +1,9 @@
-// Include the Main React Dependencies
 import React from "react";
-import ReactDOM from "react-dom";
-import App from "./components/Routes";
+import { render } from "react-dom";
+import Routes from "./routes/Routes";
+// Include the Main React Dependencies
 
-ReactDOM.render(
-  <Parent />,
+render((
+  <Routes />),
 	document.getElementById('app')
 )

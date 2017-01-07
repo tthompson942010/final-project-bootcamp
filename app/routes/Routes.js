@@ -1,15 +1,15 @@
 import React from "react";
 import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router';
-import Parent from "./Parent";
-import Display from "./Display";
-import Home from "./Home";
-import LoginModal from "./LoginModal";
-import Navbar from "./Navbar";
-import Profile from "./Profile";
-import ProfileContent from "./ProfileContent";
-import ShowSearch from "./ShowSearch";
-import Sidebar from "./Sidebar";
-import SignUpModal from "./SignUpModal";
+import Parent from "../components/Parent";
+import Display from "../components/Display";
+import Home from "../components/Home";
+import LoginModal from "../components/LoginModal";
+import Navbar from "../components/Navbar";
+import Profile from "../components/Profile";
+import ProfileContent from "../components/ProfileContent";
+import ShowSearch from "../components/ShowSearch";
+import Sidebar from "../components/Sidebar";
+import SignUpModal from "../components/SignUpModal";
 
 
 class Routes extends React.Component {
