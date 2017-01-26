@@ -1,6 +1,6 @@
 import React from "react";
 
-class ShowSearch extends React.Component{
+class ShowSearchSidebar extends React.Component{
   render() {
     return(
       <div className="row">
@@ -10,7 +10,7 @@ class ShowSearch extends React.Component{
               </div>
               <form>
                   <div className="form-group">
-                      <label labelFor="channelName">Channel Title</label>
+                      <label>Channel Title</label>
                       <input id="channelName" className="form-control" />
                   </div>
                   <div className="form-group">
@@ -25,7 +25,7 @@ class ShowSearch extends React.Component{
                       </div>
                   </div>                            
                   <div className="form-group">
-                      <label labelFor="showSearch">Search a Show</label>
+                      <label>Search a Show</label>
                       <input id="showSearch" className="form-control" />
                   </div>
               </form>
@@ -35,4 +35,4 @@ class ShowSearch extends React.Component{
   }
 }
 
-export default ShowSearch
+export default ShowSearchSidebar

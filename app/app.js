@@ -1,9 +1,9 @@
 import React from "react";
 import { render } from "react-dom";
-import Routes from "./routes/Routes";
+import SitePath from "./routes/SitePath";
 // Include the Main React Dependencies
 
 render((
-  <Routes />),
+  <SitePath />),
 	document.getElementById('app')
 )

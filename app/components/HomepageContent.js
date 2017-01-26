@@ -1,11 +1,11 @@
 import React from "react";
 import axios from "axios";
 
-class Home extends React.Component{
+class HomepageContent extends React.Component{
 
 	render() {
 		return(
-			<div className="container-fluid">
+				<div>
 				<div className="row home-override">
 					<div className="col-lg-5 col-sm-12 col-xs-12">
 						<h1 className="home-override text-center"><strong>Welcome to channelSurf!</strong></h1>
@@ -69,4 +69,4 @@ class Home extends React.Component{
 	}
 }
 
-export default Home
+export default HomepageContent;

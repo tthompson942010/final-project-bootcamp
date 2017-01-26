@@ -1,6 +1,6 @@
 import React from "react";
 
-class Display extends React.Component{
+class ShowSearchResults extends React.Component{
   render() {
     return(
       <div id="resultsDisplay" className="col-lg-10 col-lg-offset-2">
@@ -18,4 +18,4 @@ class Display extends React.Component{
   }
 }
 
-export default Display
+export default ShowSearchResults
